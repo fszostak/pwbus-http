@@ -1,0 +1,9 @@
+**/temp/*
+*.log
+*.pyc
+**/__pycache__/
+.DS_Store
+pwbus.egg-info/
+build/
+dist/
+.eggs/
