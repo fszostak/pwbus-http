@@ -9,7 +9,7 @@ with open('requirements.txt') as f:
 
 setup(
     name="pwbus-web",
-    version="0.0.22",
+    version="0.1.0",
     author="Fabio Szostak",
     author_email="fszostak@gmail.com",
     description="HTTPServer for PWBUS",
@@ -30,5 +30,5 @@ setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
-    python_requires='>=3.8'
+    python_requires='>=3.7'
 )

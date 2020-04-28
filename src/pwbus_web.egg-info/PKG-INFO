@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pwbus-web
-Version: 0.0.22
+Version: 0.1.0
 Summary: HTTPServer for PWBUS
 Home-page: https://github.com/fszostak/pwbus-web
 Author: Fabio Szostak
@@ -357,5 +357,5 @@ Classifier: Programming Language :: Python :: 3.7
 Classifier: Programming Language :: Python :: 3.8
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent
-Requires-Python: >=3.8
+Requires-Python: >=3.7
 Description-Content-Type: text/markdown

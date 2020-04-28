@@ -17,7 +17,7 @@ from pwbus.engines.engine_registry import Registry
 
 
 # Load registry
-registry = RegistryLoader("/app/etc/pwbus_registry.json")
+registry = RegistryLoader("/etc/pwbus/pwbus-registry.json")
 registry.load()
 
 # Start HTTP Server

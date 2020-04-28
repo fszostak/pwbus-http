@@ -18,7 +18,7 @@ let V=$3+1
 NEW_VERSION=$1.$2.$V
 IFS=" "
 
-echo "$VERSION => $NEW_VERSION"
+echo "pwbus-web: $VERSION => $NEW_VERSION"
 sed -i "s/version=\"$VERSION\"/version=\"$NEW_VERSION\"/" setup.py
 
 echo "Press ENTER to continue or CTRL-C to abort"
