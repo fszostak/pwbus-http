@@ -4,6 +4,7 @@
 **/__pycache__/
 .DS_Store
 pwbus.egg-info/
+.eggs/
 build/
 dist/
-.eggs/
+

@@ -1,8 +1,8 @@
-# pwbus-web
+# pwbus-http
 
 HTTPServer for PWBus.
 
-[See code in GitHub](https://github.com/fszostak/pwbus-web)
+[See code in GitHub](https://github.com/fszostak/pwbus-http)
 
 Install:
 

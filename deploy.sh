@@ -18,14 +18,14 @@ let V=$3+1
 NEW_VERSION=$1.$2.$V
 IFS=" "
 
-echo "pwbus-web: $VERSION => $NEW_VERSION"
+echo "pwbus-http: $VERSION => $NEW_VERSION"
 sed -i "s/version=\"$VERSION\"/version=\"$NEW_VERSION\"/" setup.py
 
 echo "Press ENTER to continue or CTRL-C to abort"
 read ENTER
 
 echo "Installing..."
-pip install -r requirements.txt > /dev/null 2>&1
+pip install -r requirements.txt > /dev/null
 [ $? -ne 0 ] && abort
 
 pip install -e . > /dev/null > /dev/null 2>&1

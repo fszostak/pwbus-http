@@ -8,23 +8,23 @@ with open('requirements.txt') as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="pwbus-web",
-    version="0.1.0",
+    name="pwbus-http",
+    version="0.1.5",
     author="Fabio Szostak",
     author_email="fszostak@gmail.com",
-    description="HTTPServer for PWBUS",
+    description="HTTP Server for PWBUS",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/fszostak/pwbus-web",
+    url="https://github.com/fszostak/pwbus-http",
     package_dir={"": "src"},
     packages=find_namespace_packages(where="src"),
     entry_points={
-        'console_scripts': ['pwbus_web=pwbus_web.http.server:main'],
+        'console_scripts': ['pwbus_http=pwbus_http.server:main'],
     },
     install_requires=requirements,
     setup_requires=['flake8'],
     classifiers=[
-        'Development Status :: 3 - Alpha',
+        'Development Status :: 4 - Beta',
         "Programming Language :: Python :: 3.7",
         "Programming Language :: Python :: 3.8",
         "License :: OSI Approved :: MIT License",

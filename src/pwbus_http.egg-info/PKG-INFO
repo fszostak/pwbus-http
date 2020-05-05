@@ -1,16 +1,16 @@
 Metadata-Version: 2.1
-Name: pwbus-web
-Version: 0.1.0
-Summary: HTTPServer for PWBUS
-Home-page: https://github.com/fszostak/pwbus-web
+Name: pwbus-http
+Version: 0.1.5
+Summary: HTTP Server for PWBUS
+Home-page: https://github.com/fszostak/pwbus-http
 Author: Fabio Szostak
 Author-email: fszostak@gmail.com
 License: UNKNOWN
-Description: # pwbus-web
+Description: # pwbus-http
         
         HTTPServer for PWBus.
         
-        [See code in GitHub](https://github.com/fszostak/pwbus-web)
+        [See code in GitHub](https://github.com/fszostak/pwbus-http)
         
         Install:
         
@@ -352,7 +352,7 @@ Description: # pwbus-web
         ```
         
 Platform: UNKNOWN
-Classifier: Development Status :: 3 - Alpha
+Classifier: Development Status :: 4 - Beta
 Classifier: Programming Language :: Python :: 3.7
 Classifier: Programming Language :: Python :: 3.8
 Classifier: License :: OSI Approved :: MIT License

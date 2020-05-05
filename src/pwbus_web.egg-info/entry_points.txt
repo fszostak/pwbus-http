@@ -1,3 +1,0 @@
-[console_scripts]
-pwbus_web = pwbus_web.http.server:main
-
