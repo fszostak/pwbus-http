@@ -7,6 +7,7 @@ trap abort INT
 abort()
 {
     sed -i "s/version=\"$NEW_VERSION\"/version=\"$VERSION\"/" setup.py
+    sed -i "s/__version__ = \"$NEW_VERSION\"/__version__ = \"$VERSION\"/" src/pwbus_http/server.py
     echo "Aborted!!! Version reverted to $VERSION"
     exit
 }
@@ -20,6 +21,7 @@ IFS=" "
 
 echo "pwbus-http: $VERSION => $NEW_VERSION"
 sed -i "s/version=\"$VERSION\"/version=\"$NEW_VERSION\"/" setup.py
+sed -i "s/__version__ = \"$VERSION\"/__version__ = \"$NEW_VERSION\"/" src/pwbus_http/server.py
 
 echo "Press ENTER to continue or CTRL-C to abort"
 read ENTER
