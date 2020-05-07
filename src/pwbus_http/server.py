@@ -4,6 +4,9 @@
 #:
 #:  maintainer: fabio.szostak@perfweb.com.br | Fri Nov 15 17:58:07 -03 2019
 
+__author__ = "fabio.szostak@perfweb.com.br"
+__version__ = "0.1.5"
+
 from flask import Flask, request, Response, jsonify
 from flask_cors import CORS
 
@@ -29,9 +32,9 @@ CORS(pwbus_http)
 # /pwbus/v1/in
 #
 #
-@pwbus_http.route("/pwbus")
+@pwbus_http.route("/")
 def hello():
-    return ("<style>A, P{font-family: Sans-Serif, Arial; font-weight: bold}</style><p><img src='' alt='perfweb - pwbus'></p><p>PWBus Server Engine for HTTP 0.0.1</p><p>Develop by <a href='https://perfweb.com.br'>perfweb.com.br</a></p>")
+    return (f"pwbus-http {__version__} - PWBUS Channel for receive HTTP requests")
 
 
 # /pwbus/v1/request
