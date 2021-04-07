@@ -9,7 +9,7 @@ with open('requirements.txt') as f:
 
 setup(
     name="pwbus-http",
-    version="0.1.11",
+    version="0.1.12",
     author="Fabio Szostak",
     author_email="fszostak@gmail.com",
     description="HTTP Server for PWBUS",
