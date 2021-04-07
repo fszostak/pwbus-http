@@ -27,10 +27,10 @@ echo "Press ENTER to continue or CTRL-C to abort"
 read ENTER
 
 echo "Installing..."
-pip install -r requirements.txt > /dev/null
+pip3 install -r requirements.txt > /dev/null
 [ $? -ne 0 ] && abort
 
-pip install -e . > /dev/null > /dev/null 2>&1
+pip3 install -e . > /dev/null > /dev/null 2>&1
 [ $? -ne 0 ] && abort
 
 echo "Building..."

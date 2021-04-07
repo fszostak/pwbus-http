@@ -5,7 +5,7 @@
 #:  maintainer: fabio.szostak@perfweb.com.br | Fri Nov 15 17:58:07 -03 2019
 
 __author__ = "fabio.szostak@perfweb.com.br"
-__version__ = "0.1.6"
+__version__ = "0.1.11"
 
 from flask import Flask, request, Response, jsonify
 from flask_cors import CORS

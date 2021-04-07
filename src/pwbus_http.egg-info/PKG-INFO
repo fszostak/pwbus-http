@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: pwbus-http
-Version: 0.1.7
+Version: 0.1.11
 Summary: HTTP Server for PWBUS
 Home-page: https://github.com/fszostak/pwbus-http
 Author: Fabio Szostak
@@ -9,8 +9,6 @@ License: UNKNOWN
 Description: # pwbus-http
         
         HTTPServer for PWBus.
-        
-        [See code in GitHub](https://github.com/fszostak/pwbus-http)
         
         Install:
         
