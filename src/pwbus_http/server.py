@@ -5,7 +5,7 @@
 #:  maintainer: fabio.szostak@perfweb.com.br | Fri Nov 15 17:58:07 -03 2019
 
 __author__ = "fabio.szostak@perfweb.com.br"
-__version__ = "0.1.17"
+__version__ = "0.1.33"
 
 from flask import Flask, request, Response, jsonify
 from flask_cors import CORS
@@ -244,7 +244,7 @@ def http_fake_client():
 
 
 def main():
-    pwbus_http.run()
+    pwbus_http.run(host="0.0.0.0", port=80, debug=False, threaded=True)
 
 
 # __main__
